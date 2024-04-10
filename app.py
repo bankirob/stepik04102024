@@ -4,7 +4,9 @@ import streamlit as st
 import matplotlib.pyplot as plt
 
 # Загрузка данных с учетом строк с комментариями и указанием заголовков
-df = pd.read_csv(".venv\\food_prices_ind.csv", comment='#')
+#zdf = pd.read_csv("food_prices_ind.csv", comment='#')
+df = pd.read_csv("C:\\Users\\Администратор\\PycharmProjects\\pythonProject2\\stepik04102024\\food_prices_ind.csv", comment='#')
+
 #"C:\Users\Администратор\PycharmProjects\pythonProject2\.venv\food_prices_ind.csv"
 
 # Переименование столбцов, чтобы использовать корректные названия
